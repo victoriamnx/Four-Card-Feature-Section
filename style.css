@@ -34,6 +34,14 @@ body {
   color: hsl(234, 12%, 34%);
 }
 
+#secao-cima p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  color: hsl(229, 6%, 66%);
+  text-align: center;
+}
+
 section {
   display: flex;
   align-items: center;
@@ -41,10 +49,110 @@ section {
   justify-content: space-between;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
+.iconbox {
+  margin-top: 35px;
+  float: right;
 }
+
+#secao-esquerda {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 5px;
+  border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+#secao-esquerda p {
+  font-size: 15px;
+  margin-top: 10px;
+  color: hsl(229, 6%, 66%);
+}
+
+#box-top {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 5px;
+  border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+#box-top p {
+  font-size: 15px;
+  margin-top: 10px;
+  color: hsl(229, 6%, 66%);
+}
+
+#box-bottom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 5px;
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+#box-bottom p {
+  font-size: 15px;
+  margin-top: 10px;
+  color: hsl(229, 6%, 66%);
+}
+
+#secao-direita {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 5px;
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+#secao-direita p {
+  font-size: 15px;
+  margin-top: 10px;
+  color: hsl(229, 6%, 66%);
+}
+
+.attribution {
+  position: relative;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10px;
+  color: hsl(229, 6%, 66%);
+}
+
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(229, 6%, 66%);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: hsl(234, 12%, 34%);
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
 }

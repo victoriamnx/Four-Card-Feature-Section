@@ -11,7 +11,8 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 # Result
 
-Coming soon...
+![image](https://github.com/victoriamnx/Four-Card-Feature-Section/assets/96449803/5b05c107-3760-4cf0-b8e9-9341a43dfeab)
+![image](https://github.com/victoriamnx/Four-Card-Feature-Section/assets/96449803/c6592f00-e33c-4d5a-bcc1-33857d6aadfe)
 
 # Links
 
